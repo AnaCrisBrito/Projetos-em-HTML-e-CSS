@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root{
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: "Press Start 2P", system-ui;
+
+
+    --cor-fundo: #121212;
+    --cor-fundo-card: #1E1E1E;
+    --cor-textoPrincipal: #FFFFFF;
+    --cor-textoSecundario: #A0A0A0;
+    --cor-destaqueBotoes: #BB86FC;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-padrao);
+    
+}
+
+main{
+    background-color: var(--cor-fundo-card);
+    color: var(--cor-textoPrincipal);
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    width: 500px;
+    margin: 30px auto;
+    border: 4px solid var(--cor-destaqueBotoes);
+    box-shadow: 10px 10px 20px #000000a2;
+    
+}
+
+.fotoPrincipal{
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+main h1{
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 30px;
+    color:var(--cor-textoSecundario);
+    margin-bottom: 20px;
+}
+
+.sobreMim{
+    text-align: justify;
+    margin: 10px;
+}
+
+.sobreMim h2{
+    font-family: var(--fonte-destaque);
+    font-size: 18px;
+    font-weight: normal;
+    color:var(--cor-textoSecundario);
+    margin: 20px 0px;
+    letter-spacing: 1px;
+}
+
+main .sobreMim p{
+    text-align: justify;
+    line-height: 1.6em;
+    text-indent: 30px;
+}
+
+.redesSociais{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redesSociais a{
+    text-align: center;
+    margin: 10px;
+}
+
+.redesSociais img{
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+}
+
+.redesSociais h2{
+    font-family: var(--fonte-destaque);
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+    color:var(--cor-textoSecundario);
+    margin: 20px 10px;
+    letter-spacing: 1px;
+}
+
+.botao{
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--cor-textoPrincipal);
+    background-color: var(--cor-destaqueBotoes);
+    cursor: pointer;
+    transition: all  0.3s ease;
+
+}
+
+.botao:hover{
+    background-color: rgb(57, 4, 57);
+    color: var(--cor-textoPrincipal);
+    transform: scale(1.05);
+}
+ 
+
+footer{
+    margin-top: 30px;
+    color:var(--cor-textoSecundario);
+
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor-destaqueBotoes);
+}
+
+footer a:hover{
+    background-color: rgb(57, 4, 57);
+    color: var(--cor-textoPrincipal);
+    text-decoration: underline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
